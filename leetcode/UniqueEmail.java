@@ -23,7 +23,7 @@ public class UniqueEmail {
     return uniqueEmails.size();
   }
 
-  public static void main(String[] args) {
+public static void main(String[] args) {
     UniqueEmail solution = new UniqueEmail();
 
     String[] emails = {
@@ -36,3 +36,4 @@ public class UniqueEmail {
     System.out.println(solution.numUniqueEmails(emails));
   }
 }
+
